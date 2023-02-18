@@ -1,6 +1,6 @@
 export default {
-    name:"airbnb",
-    title:"property",
+    name:"property",
+    title:"Property",
     type:"document",
     fields:[
         {
@@ -27,6 +27,8 @@ export default {
                 layout:"radio"
             }
         },
+
+        //hotspots for adding editing feature like cropping image  
         {
             name:"mainImage",
             title:"Main Image",
@@ -35,6 +37,7 @@ export default {
                 hotspot:true
             }
         },
+        //adds multiple image feature
         {
             name:"images",
             title:"Images",
