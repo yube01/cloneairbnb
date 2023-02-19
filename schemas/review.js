@@ -8,11 +8,11 @@ export default{
             title:"Descriptions",
             type:"string"
         },
-        // {
-        //     name:"traveller",
-        //     title:"Traveller",
-        //     type:"traveller"
-        // },
+        {
+            name:"travaller",
+            title:"Travaller",
+            type:"travaller"
+        },
         {
             name:"rating",
             title:"Rating",

@@ -81,11 +81,11 @@ export default {
             title:"Description",
             type:"string"
         },
-        // {
-        //     name:"host",
-        //     title:"Host",
-        //     type:"host"
-        // },
+        {
+            name:"host",
+            title:"Host",
+            type:"host"
+        },
         //type array helps for adding multiple number of data
         {
             name:"reviews",
